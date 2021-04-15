@@ -1,3 +1,22 @@
 h1 {
     color: #025157;
 }
+h3{
+    color: #46484c;
+}
+#search{
+    color: #fff;
+    background-color:#025157;
+}
+.promocional{
+    color:#8b8b8bcc
+}
+ .img{
+     display: block;
+     margin-right: 10px;
+ }
+
+ 
+ #background{
+        background-color: #fffbf7;
+ }
