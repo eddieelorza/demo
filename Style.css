@@ -1,22 +1,123 @@
 h1 {
     color: #025157;
+    font-style: Bree Serif;
+    font-family: 'Bree Serif';
+    font-size:50px;
+    text-align: center;
 }
-h3{
+h4 {
     color: #46484c;
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size:15px;
+}
+#email{
+  margin: 20px 50px 0 470px;
+ 
 }
 #search{
     color: #fff;
     background-color:#025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: #025157;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 15px;
+}
+#inp{
+  padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: -20px;
 }
 .promocional{
-    color:#8b8b8bcc
+    color:#8b8b8bcc;
+    text-align: center;
+    
+
 }
  .img{
-     display: block;
-     margin-right: 10px;
+     display: inline;
+     margin: 0px 50px 0 390px;
+     
  }
-
+.main{
+    margin: 140px 200px  100px;
+}
  
- #background{
+ .background{
         background-color: #fffbf7;
  }
+ .header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+  }
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+  .logo {
+    height: 100%;
+  }
+  
+  .navbar {
+    width: 70%;
+
+    text-align: center;
+    color: #025157;
+    
+    
+  }
+  .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    
+  }
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: -50px;
+  }
+  li {
+    display: inline;
+    margin:25px 25px 25px 25px;
+  }

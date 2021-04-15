@@ -8,21 +8,47 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body id="background">
+<body class="background">
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" class="logo">
+            <img src="img/footer_logo.svg" alt="Matcha" >
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+            <ul>
+                <li>Plafform</li>
+                <li>Pricing</li>
+                <li>Custumers</li>
+                <li>Resources</li>
+                <li>About</li>
+              </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+            <a href="#">Sing In</a>
+            <button>Start Free Trial</button>
+        </div>
+      </header>   
+      <br>   
+      <br> 
+<main class="main">
     <h1 >Build your blog. Build your business.</h1>
-    <h4>
-        Instantly publish articles, drive more traffic, grow your email list, and
-        see your blog’s impact on sales.
-      </h4>
+    <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
+    </h4>
     <form>
-        <input type="email" />
+        <a id="email">
+        <input type="email" placeholder="Enter email address" id="inp">
         <button type="submit" id="search">
             Try it now &rarr;
-        </button>
+        </button></a>
         <br>
         <p class="promocional">Start publishing today with a <em>free 7-day trial.</em> <br> <em>No credit card</em> requiered</p>
         <br>
         <img src="img/capterra.png" alt="imagen capterra" class="img">
+        <br><br><br>
+        <img src="img/end-result.png" alt="resultados finales" >
     </form>
+</main>
 </body>
 </html>
